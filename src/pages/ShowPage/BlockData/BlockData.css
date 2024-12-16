@@ -1,0 +1,9 @@
+main .ql-container{
+  height: fit-content;
+}
+.ql-tooltip{
+  display: none !important;
+}
+main .ql-editor{
+  font-family: var(--font) !important;
+}

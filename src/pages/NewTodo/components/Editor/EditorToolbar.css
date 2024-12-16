@@ -1,0 +1,10 @@
+main .quill{
+  background-color: var(--headerNav) !important;
+  border: var(--borderColorBold) solid 1px;
+}
+main .ql-container{
+  height: auto !important;
+}
+main .ql-editor{
+  font-family: var(--font) !important;
+}

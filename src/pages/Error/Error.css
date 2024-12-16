@@ -1,0 +1,38 @@
+@import url(./../../assets/CSS/Global.css);
+.errorPageContainer{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainColor);
+  background-image: url('./../../assets/Images/Shape.webp');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.errorPageContainer .cardContaienr{
+  background-color: var(--headerNav);
+  width: 380px;
+  height: 400px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+.errorPageContainer .linkHomePage{
+  text-decoration: none;
+  width: 260px;
+  height: 48px;
+  background-color: var(--mainColor);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  font-family: var(--font);
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: var(--headerNav);
+  cursor: pointer;
+}

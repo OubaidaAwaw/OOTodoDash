@@ -1,0 +1,116 @@
+  /* ///////////////////////////////////// AllComponents*/
+:root{
+  --mainColor: #4880FF;
+  --headerNav: #FFFFFF;
+  --bodyColor: #F5F6FA;
+  --textColor: #202224;
+  --borderColor: #0000001a;
+  --borderColorBold: #00000033;
+  --pock: #C8C8C859;
+  --start:#FFD56D;
+  --font: verdana;
+}
+svg{
+  font-size: 30px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: verdana;
+}
+body main{
+  animation: mainLoad 1s ease;
+  -webkit-animation: mainLoad 1s ease;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.rowrevers{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerRow{
+  align-items: center;
+}
+.between{
+  width: 100%;
+  justify-content: space-between;
+}
+.around{
+  width: 100%;
+  justify-content: space-around;
+}
+.H1{
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--textColor);
+  cursor: default;
+  text-transform: capitalize;
+}
+.H4D{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--textColor);
+  line-height: 170%;
+  cursor: default;
+}
+.gap20{
+  gap: 20px;
+}
+.gap30{
+  gap: 30px;
+}
+.gap10{
+  gap: 10px;
+}
+.gap50{
+  gap: 50px;
+}
+.inputsClassic{
+  font-size: 20px;
+  outline: none;
+  padding: 5px 10px;
+  border: var(--borderColorBold) solid 1px;
+  color: var(--textColor);
+}
+@keyframes mainLoad {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media print {
+  .headerContainer,
+  .navContainer,
+  .alertingContainer,
+  .backContainer {
+    display: none;
+  }
+  #mainScroll{
+    background: white;
+    width: 100vw;
+    height: 100%;
+    border: none;
+  }
+}

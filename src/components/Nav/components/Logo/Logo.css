@@ -1,0 +1,13 @@
+.logoContainer{
+  height: 70px;
+  width: 100%;
+}
+.logoContainer p{
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--textColor);
+  cursor: default;
+}
+.logoContainer p span{
+  color: var(--mainColor);
+}

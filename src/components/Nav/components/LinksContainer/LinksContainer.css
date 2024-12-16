@@ -1,0 +1,35 @@
+#savedstar path{
+  stroke-width: 2px;
+  stroke: var(--textColor);
+}
+.navigationLink.active #newList path,
+.navigationLink.active #savedstar path,
+.navigationLink.active  #binList path{
+  stroke: var(--headerNav);
+  fill: transparent;
+}
+.navigationLink #newList,
+.navigationLink #binList{
+  fill: transparent;
+}
+.navigationLink.active #editTodo path{
+  fill: none;
+  stroke: var(--headerNav);
+}
+.nvigationLink{
+  position: relative;
+}
+.notific{
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  left: 40%;
+  border-radius: 50%;
+  top: 40%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

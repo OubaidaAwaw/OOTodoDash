@@ -1,0 +1,28 @@
+.noTodosContainer{
+  width: 100%;
+  height: 300px;
+  background-color: var(--pock);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.noTodosContainer a{
+  padding-inline: 20px;
+  text-decoration: none;
+  height: 48px;
+  background-color: var(--mainColor);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  font-family: var(--font);
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: var(--headerNav);
+  cursor: pointer;
+}

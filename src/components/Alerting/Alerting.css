@@ -1,0 +1,61 @@
+.alertingContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 400px;
+  overflow: hidden;
+  height: auto;
+  gap: 10px;
+  z-index: 11;
+  justify-content: space-around;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--mainColor);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: default;
+  animation: 2s ease-out Notification;
+  -webkit-animation: 2s ease-out Notification;
+}
+.alertingContainer .alertContent,
+.alertingContainer .alertTitle {
+  font-family: Helvetica;
+  color: var(--headerNav);
+}
+.alertingContainer .alertTitle {
+  font-family: Verdana;
+}
+.alertingContainer .alertTitle::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 5px;
+  background-color: var(--textColor);
+  animation: 2s ease-out Progress;
+  -webkit-animation: 2s ease-out Progress;
+}
+.alertingContainer .alertContent {
+  color: var(--headerNav);
+}
+@keyframes Progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes Notification {
+  0%,
+  98% {
+    bottom: 0px;
+  }
+  5%,
+  80% {
+    bottom: 10px;
+  }
+}

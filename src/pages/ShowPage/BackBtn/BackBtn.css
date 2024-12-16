@@ -1,0 +1,23 @@
+.backContainer{
+  width: 100%;
+}
+.backContainer .linkText{
+  text-decoration: none;
+  color: var(--textColor);
+}
+.linkText:hover svg{
+  rotate: 30deg;
+}
+.backContainer .printButton{
+  width: 50px;
+  height: 54px;
+  background: var(--pock);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: solid var(--borderColor);
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.attachmentContainer{
+  width: 100%;
+}
+.attachmentContainer textarea{
+  width: 100%;
+  cursor: auto !important;
+  background-color: var(--headerNav);
+  border: var(--borderColorBold) solid 1px;
+  min-height: 60px;
+  resize: vertical;
+}

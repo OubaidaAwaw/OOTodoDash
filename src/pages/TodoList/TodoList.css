@@ -1,0 +1,130 @@
+.listsContainer .containNewList input,
+.listsContainer .containNewList:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.editingSpaceContainer .doItContainer button:hover,
+.listHeader,
+.todoHeaderSearch .headerBtnss button:hover svg {
+    color: #202641;
+}
+.listsContainer,
+.todoContainer {
+    border-radius: 5px;
+    position: relative;
+}
+.chartListsContainer {
+    padding-block: 15px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.trashList {
+    margin-left: auto;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.trashList:hover {
+    scale: 1.2;
+    color: red;
+    animation: 0.4s linear ring;
+    -webkit-animation: 0.4s linear ring;
+    transform-origin: 50% 70%;
+}
+@keyframes ring {
+    0%,
+    100% {
+        rotate: 0;
+    }
+    20%,
+    80% {
+        rotate: 45deg;
+    }
+    40%,
+    60% {
+        rotate: -45deg;
+    }
+}
+.editingMode .arrowBack,
+.listsContainer button::before,
+.todoContainerVer #Layer_1 {
+    display: none;
+}
+.containerColorNameInput {
+    gap: 10px;
+}
+.quill {
+    position: relative !important;
+    z-index: 0 !important;
+    max-width: 100% !important;
+}
+.editingModeBtn,
+.ql-toolbar {
+    position: absolute;
+    top: 0;
+}
+.ql-toolbar {
+    width: 100% !important;
+    background: #e6e6e6 !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none !important;
+    z-index: 2 !important;
+}
+.ql-container {
+    width: 100% !important;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 1 !important;
+    border: 2px solid #e6e6e6 !important;
+    background-color: #202641;
+    padding-top: 50px !important;
+    height: auto !important;
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -ms-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
+}
+.colorContainer {
+    height: 35px;
+}
+.containerColorNameInput .chosenColor {
+    background-color: #202641;
+    width: 200px;
+    padding-top: 8px;
+    border-radius: 25px;
+    margin-right: 10px;
+    height: 45px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media print {
+    .arrowBack,
+    .editingModeBtn,
+    .headerContainer,
+    .navigationContainer,
+    .printEditContianer,
+    .ql-toolbar {
+        display: none;
+    }
+    .ql-container {
+        border: none !important;
+    }
+    .editingSpaceContainer .subDetailsTodoContainer section {
+        border: none;
+    }
+    .editingSpaceContainer .subDetailsTodoContainer section textarea {
+        resize: none;
+    }
+    .editingSpaceContainer .subDetailsTodoContainer section h1 {
+        align-self: flex-start;
+    }
+}

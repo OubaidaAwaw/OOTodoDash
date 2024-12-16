@@ -1,0 +1,48 @@
+.searchBox {
+  position: relative;
+  width: 388px;
+  height: 38px;
+  padding: 10px 15px;
+  border-radius: 19px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -ms-border-radius: 19px;
+  -o-border-radius: 19px;
+  background:  var(--bodyColor);
+  border: solid var(--borderColorBold) 1px;
+  justify-content: flex-start;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.searchBox .inputSearch{
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  width: calc(100% - 30px);
+  font-size: 14px;
+  line-height: 19.1px;
+  background: none;
+  color: var(--textColor);
+}
+.searchBox .inputSearch::placeholder {
+  color: var(--textColor);
+}
+.searchBox .inputSearch::-webkit-search-cancel-button{
+  width: 15px;
+  height: 15px;
+  color: var(--textColor) ;
+  cursor: pointer;
+}
+.searchBox #faSearchIco{
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.searchBox #faSearchIco:hover {
+  scale: 1.05;
+  rotate: -7deg;
+}

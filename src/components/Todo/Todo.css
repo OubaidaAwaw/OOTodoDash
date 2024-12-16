@@ -1,0 +1,127 @@
+.todo{
+  background-color: var(--headerNav);
+  width: 100%;
+  height: 93px;
+  padding: 30px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: solid var(--borderColorBold) 1px;
+  overflow: hidden;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.penInputbutton{
+  border: none;
+}
+.todo path{
+  stroke: var(--textColor);
+}
+.todo .saveStars path{
+  stroke: var(--textColor);
+  stroke-width: 2px;
+}
+.todo .H4D{
+  font-weight: 400;
+}
+.todo label{
+  cursor: pointer;
+}
+.todo .cancel{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  background: transparent;
+}
+.todo input{
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+.star .saveItStar:checked + label path{
+  stroke: var(--start) !important;
+}
+.star .saveItStar:checked + label svg{
+  fill: var(--start) !important;
+}
+.todo .binButton{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 65px;
+  height: 40px;
+  background-color: var(--pock);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.todo .binButton path{
+  stroke:  var(--headerNav);
+}
+.todo .checkboxChechInput{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: solid var(--textColor) 1px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.todo .checkboxChechInput:checked{
+  border: solid var(--headerNav) 2px;
+}
+.todo .checkboxChechInput:checked::before{
+  position: absolute;
+  content: '';
+  top: 7px;
+  left: 5px;
+  width: 14px;
+  height: 7px;
+  rotate: -45deg;
+  scale: .8;
+  border-left: solid var(--headerNav) 3px;
+  border-bottom: solid var(--headerNav) 3px;
+  animation: checked linear 0.3s;
+  -webkit-animation: checked linear 0.3s;
+}
+.todo .LightStroke{
+  stroke:  var(--headerNav) !important;
+}
+.todo .LightBorderColor{
+  border: solid var(--headerNav) 1px !important;
+}
+.todo .textColor{
+  color: var(--headerNav);
+}
+.todo.backColoring{
+  background: var(--mainColor) !important;
+}
+@keyframes checked {
+  0%{
+    width: 0;
+    height: 0;
+  }
+  50%{
+    width: 0;
+    height: 7px;
+  }
+  100%{
+    width: 14px;
+    height: 7px;
+  }
+}

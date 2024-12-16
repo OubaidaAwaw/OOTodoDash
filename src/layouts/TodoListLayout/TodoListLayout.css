@@ -1,0 +1,17 @@
+.headerNaveContainer{
+  background: var(--bodyColor);
+}
+.mainContainerTodolist{
+  width: calc(100% - 240px);
+  height: 100vh;
+}
+.mainContainerTodolist main{
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 30px;
+  --border: solid 1px var(--borderColor);
+  border-left: var(--border);
+  border-top: var(--border);
+}

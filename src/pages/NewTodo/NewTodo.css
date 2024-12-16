@@ -1,0 +1,58 @@
+.mainButton{
+  width: 147px;
+  height: 48px;
+  background-color: var(--mainColor);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  font-family: var(--font);
+  font-size: 14px;
+  appearance: none;
+  outline: none;
+  border: none;
+  color: var(--headerNav);
+  cursor: pointer;
+}
+.mainButton:hover .svgContainer path{
+  rotate: 20deg;
+  translate: 0px 0px;
+  animation: jak linear .5s;
+  -webkit-animation: jak linear .5s;
+}
+@keyframes jak {
+  30%{
+    scale: 1.3;
+    rotate: 20deg;
+  }
+  60%{ 
+    translate: 20px -20px;
+  }
+  61%{ 
+    translate: -60px 60px;
+  }
+  100%{
+    translate: 0px 0px;
+    scale: 1;
+  }
+}
+.mainButton .svgContainer path{
+  transform-origin: 50% 50%;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.buttonsContainer .svgContainer{
+  width: 46px;
+  height: 38px;
+  scale: .8;
+  background-color: var(--pock);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
