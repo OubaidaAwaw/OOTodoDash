@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkootododash=self.webpackChunkootododash||[]).push([[766],{8766:(t,e,a)=>{a.r(e),a.d(e,{default:()=>n});var s=a(579);function n(t){return(0,s.jsxs)("section",{className:"attachmentContainer col gap10",children:[(0,s.jsx)("label",{htmlFor:"textAttachment",className:"H4D",children:"Attachments"}),(0,s.jsx)("textarea",{value:t.value,onChange:t.onChange,className:"inputsClassic",name:"textAttachment",id:"textAttachment"})]})}}}]);
+//# sourceMappingURL=766.f69b0df4.chunk.js.map

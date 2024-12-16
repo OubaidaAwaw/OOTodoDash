@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkootododash=self.webpackChunkootododash||[]).push([[646],{8646:(e,t,a)=>{a.r(t),a.d(t,{default:()=>s});var n=a(579);function s(e){return(0,n.jsxs)("section",{className:"titleInputContainer col gap10",children:[(0,n.jsx)("label",{htmlFor:"TitleInput",className:"H4D",children:"Title"}),(0,n.jsx)("input",{onChange:e.onChange,value:e.value,className:"inputsClassic",type:"text",name:"TitleInput",id:"TitleInput"})]})}}}]);
+//# sourceMappingURL=646.c4615d46.chunk.js.map

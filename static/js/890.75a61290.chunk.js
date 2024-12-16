@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkootododash=self.webpackChunkootododash||[]).push([[890],{890:(s,e,o)=>{o.r(e),o.d(e,{default:()=>h});var t=o(5043),n=o(3003),d=o(8004),c=o(579);const a=(0,t.lazy)((()=>o.e(665).then(o.bind(o,6046))));function h(){const s=(0,n.wA)();return(0,t.useEffect)((()=>{s((0,d.WO)("todo"))}),[s]),(0,c.jsxs)(t.Suspense,{children:[(0,c.jsx)("h1",{className:"H1",children:"To-do List"}),(0,c.jsx)(a,{})]})}}}]);
+//# sourceMappingURL=890.75a61290.chunk.js.map
